@@ -1,2 +1,1 @@
-web: gunicorn propertinvestment.wsgi
-
+web: gunicorn propertyinvestment.wsgi
