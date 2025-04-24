@@ -70,7 +70,8 @@ DATABASES = {
         'PORT': os.getenv('DB_PORT'),
     }
 }
-
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+MEDIA_ROOT = BASE_DIR / 'media'
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
     {
